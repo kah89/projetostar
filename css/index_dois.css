@@ -1,0 +1,906 @@
+/* Menu principal*/
+
+
+
+body {
+    
+   
+    background-size: cover;
+     background-color: lightblue; 
+    font-family: 'Ubuntu', sans-serif;
+        
+}
+
+.carousel-inner img {
+    width: 80%;
+    height: 100%;
+    margin-top: 11%;
+    display: block;
+    text-align: center;
+    margin-left: 12%;
+}
+
+#fade {
+    opacity: 0.5;
+}
+
+#fade:hover {
+    opacity: 1;
+}
+
+
+/* nome logo */
+
+#titulo h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #424949;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#titulo h2 {
+    font-size: 25px;
+    text-align: center;
+    color: #424949;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bgbarra {
+    /* background-color:lightsteelblue; */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#collapsibleNavbar a:hover {
+    font-weight: bold;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.2);
+}
+
+
+/* #collapsibleNavbar a:hover {
+    cursor: pointer; 
+    border-radius: 15px;
+    
+} */
+
+
+/* .bgbarra a {
+    color: crimson;
+} */
+
+.redesocial {
+/* Ícones sociais animados com CSS3 */
+-moz-transition: all 0.8s ease-in-out;
+-webkit-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+-ms-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-out;
+}
+
+.redesocial:hover {
+-moz-transform: translatey(-20px);
+-webkit-transform: translatey(-20px);
+-o-transform: translatey(-20px);
+-ms-transform: translatey(-20px);
+transform: translatey(-20px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*pagina dicas */
+
+#primeira h3 {
+    /* padding-top: 22%; */
+    margin-top: 15%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+}
+
+#primeira h4 {
+    /* padding-top: 3%; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+#primeira p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#segunda h4 {
+    /* padding-top: 3%; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+#segunda h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+#segunda p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+primeira {
+   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*pagina area cliente */
+
+#registro {
+    margin-top:15%;
+   text-align: center;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 19px;
+     /*display:block;*/
+    float: left;
+}
+
+#registrodois {
+    margin-top:15%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    display:block;
+    float: right;
+    
+}
+
+
+#frmContatosdois {
+    display: block;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*todos os inputs */
+
+input {
+    border-radius: 8px;
+    padding: 3px;
+}
+
+ input sobrenome {
+    
+}
+
+#btnentrar {
+    margin-left: 40%;
+    
+}
+
+
+
+#esqueceuStar{
+    font-size: 72%;
+}
+
+
+#btncadastrar  {
+    margin-left: 78%;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* PAGINA GALERIA */
+    
+    * {
+  box-sizing: border-box;
+}
+
+/* body {
+  margin-top: 10%;
+  font-family: Arial;
+} */
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width:55%;
+  padding: 20px;
+    cursor: pointer;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer;
+    
+}
+
+.column img:hover {
+  opacity: 1;
+    
+    }
+
+/* Clear floats after the columns */
+#linha row {
+  content: "";
+  display: table;
+  clear: both;
+  float: left;
+    
+    
+}
+
+/* The expanding image container */
+#container {
+  position: relative;
+     display: none;
+ /*  margin-left: 55%; */
+    
+   }
+
+/* Expanding image text */
+#imgtext {
+  position:relative;
+  bottom: 5px;
+  left: 15px;
+  color: white;
+  font-size: 20px;  
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: relative;
+  top: 5%;
+  right: 5px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+    
+}
+    #galeria{ text-align: center;
+        
+        ;
+            }
+    
+    #galeria h2 { font-family: serif;
+    }
+    #galeria p {font-family: arial narrow, sans-serif;}
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+/* PAGINA PACOTES */
+   
+       
+    
+        
+#pacotes{
+
+    width: 100%;
+    padding: 40px;
+    line-height: 0;
+}
+
+#imagempct{
+  display:block;
+  width: 90%;
+  height: 90%;
+  
+}
+
+        
+        /* Style the button and place it in the middle of the container/image */
+#pacotes #btndetalhes{
+  transform: translate(-92%, -92%);
+  -ms-transform: translate(-80%, -80%);
+  background-color: darkcyan;
+  color: white;
+  font-size: 15px;
+  padding:5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#pacotes #btndetalhes:hover {
+  background-color:forestgreen;
+}
+    
+  #h1pct{
+       
+      text-align: center;
+      margin-top: 10%;
+      margin-bottom: 3%;
+    }
+    
+    #btndetalhes{margin-left: 89%;
+        margin-top: 10%;}
+            
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ /*PÁGINA SOBRE 
+  #principalsobre{
+    margin-top: 150px;
+    
+}  
+ 
+ #mySidenav a {
+            position: absolute;
+            left: 10px;
+            transition: 0.3s;
+            padding: 20px;
+            width: 120px;
+     text-decoration: none;
+            font-size: 25px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        #mySidenav a:hover {
+            left: 0;
+        }
+        
+        #about {
+            top: 25%;
+            background-color: #008fd5;
+            position: absolute;
+            padding: 300px;
+        }
+        
+        #mission {
+            top: 40%;
+            background-color: #01b3b3;
+            position: absolute;
+        }
+        
+        #vision {
+            top: 55%;
+            background-color: #86c341;
+            position: absolute;
+        }
+        
+        #values {
+            top: 70%;
+            background-color: #f8b810;
+            position: absolute;
+        }
+        
+        #sobre,
+        #missao,
+        #visao,
+        #valores {
+            display:none;
+        }
+        
+        
+        
+        #missao {
+         
+            margin-right: 200%;
+           
+           
+        }
+        
+        #visao {
+        
+            text-align: center;
+           
+        }
+        
+        #valores {
+           
+            text-align: justify;
+            
+        }
+        
+        #sobre {
+            display: block;
+           
+        }
+
+
+        
+        h1 {
+            font-family: 'Ubuntu', sans-serif;
+            text-align: center;
+            font-size: 25px;
+        }
+        
+        p {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 20px;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            #rodape {
+                margin-top: 10%;
+            }
+            
+            
+            #mySidenav a{
+        position:relative;
+        
+    }
+    
+    .bgbarra{
+        
+        min-height: 
+    }
+    
+    .carousel-inner img{
+        margin-top: 150px;
+    }
+            
+            #registro {
+        margin-top: 25%;
+    }
+            
+            
+            #pacotes { 
+            margin-top: 15%;
+            }
+            
+            
+            #primeira h3 {
+                margin-top: 30%;
+            }
+      
+          
+}
+
+
+*/
+
+
+/*QUERY*/
+
+
+
+@media only screen and (max-width: 300px) {
+  body {
+    margin-top: 25%;
+  }
+      #imgtext {
+        margin-top: -25%;
+    }
+    
+    #mySidenavsobre a {
+        margin-top: 35%;
+    }
+    
+#imagempct{
+  width: 30%;
+  height: 30%;
+  
+}
+    
+#btndetalhes{ margin-top: 2%;
+    width: 15%;
+  height: 10%;
+ font-size: 1%;
+    
+
+}
+    
+   
+    
+}
+
+    
+@media only screen and (max-width: 800px) {
+    
+    .carousel-inner img {
+        margin-top: 35%;
+    }
+    
+     #rodape {
+                margin-top: 39%;
+    }
+    
+    .bgbarra {
+        padding: -0px;
+        
+        
+    }
+    .bgbarra {
+        
+        
+  background-color:lightsteelblue; 
+        
+        
+    }
+    
+}
+
+ @media only screen and (max-width: 250px) {
+    
+    #titulo h1 {
+    font-size: 20px;
+    
+     }
+     
+     #titulo h2 {
+    font-size: 15px;
+     }
+   
+     
+}
+
+
+@media only screen and (max-width: 400px) {
+   
+    
+    
+    #mySidenav a {
+        
+        position: static;
+       display:inline-block;
+   margin: 2px;
+        font-size: 20px;
+            padding: 20px;
+            width: 90px;
+        height: 55px;
+        
+ } 
+    
+    #h1sobre {
+            font-family: 'Ubuntu', sans-serif;
+            text-align: center;
+            font-size: 20px;
+        }
+    
+    
+        
+        #psobre {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 15px;
+            
+        }
+    
+    #sobre {
+           
+              margin-top: 10%;
+            
+           
+        }
+    
+    .bgbarra {
+        padding: -0px;
+        
+   
+        
+        
+    }
+    
+    
+    
+    }    
+    
+
+
+
+@media only screen and (max-width: 800px) {
+   
+     
+    
+    #mySidenav a {
+        
+        position: static;
+       display:inline-block;
+   margin: 2px;
+        font-size: 20px;
+            padding: 20px;
+            width: 90px;
+        height: 55px;
+        margin-top: -100px;
+ } 
+    
+    #h1sobre {
+            font-family: 'Ubuntu', sans-serif;
+            text-align: center;
+            font-size: 20px;
+        }
+    
+    
+        
+        #psobre {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 15px;
+            
+        }
+    
+    #sobre {
+           
+              margin-top: 100px;
+            
+           
+        }
+    
+    .bgbarra {
+        padding: -0px;
+        
+    }
+       
+    
+    }    
+    
+    
+     
+
+
+
+
+
+
+
+
+/* Estilo Footer */
+footer {
+    float: left;
+    width: 100%;
+    text-decoration-color: black;
+     text-decoration-style: solid;
+    font-size: 15px;
+    text-emphasis-position: below;
+    font-weight: bold;
+     bottom: 0;
+margin-top: 250px;
+
+}
+
+
+.contato {
+    text-align: left;
+    /*    padding: 16px;*/
+    margin-left: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.email {
+    text-align: right;
+    margin-right: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#Salvar {
+    border-radius: 5px;
+    
+}
+
+
+/*footer h3 */
+
+#rodape h3 {
+    font-size: 20px;
+}
+
+
+
+/*SOBRE NOVO
+
+.imagenssobre img{
+    width:400px;
+    padding:  8px;
+    float:left;
+    opacity: 0.10;
+ 
+       
+    
+}
+
+
+.imagenssobre img:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+.espacamento {
+    padding: 180px;
+}
+
+*/
+
+
+
+
+/*SOBRE TRES*/
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color:cadetblue;
+  width: 18%;
+  height: 300px;
+    margin-top: 200px;
+    
+}
+
+
+    
+
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: #01b3b3;
+  color: black;
+  padding: 25px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+   font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color:#f8b810;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  width: 50%;
+  border-left: none;
+  height: 300px;
+  display: none;
+    margin-top: 200px;
+   margin-left: 10%;
+}
+
+/* Clear floats after the tab */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#London h3 p {font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    
+    
+}
+#Paris
+
+  {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+      
+    
+    
+}
+#London {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    
+}
+
+#Tokyo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    
+}
+
+#NY {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    display: block;
+    
+}
